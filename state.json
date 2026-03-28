@@ -1,47 +1,27 @@
 {
   "status": "working",
   "current_task": {
-    "id": "task-001",
-    "title": "Add 5 new Scam Academy simulations (job scams)",
+    "id": "task-005",
+    "title": "Add 5 new Scam Academy simulations (rental scams)",
     "product": "scam-academy",
-    "priority": "high",
-    "steps_total": 5,
-    "steps_done": 0,
-    "started_at": null
+    "priority": "medium",
+    "started_at": "2026-03-28T19:47:03.130Z"
   },
   "task_progress": [
     {
       "type": "work_cycle",
-      "task_id": "task-001",
-      "timestamp": "2026-03-28T19:11:11.426Z",
+      "task_id": "task-005",
+      "timestamp": "2026-03-28T19:47:06.075Z",
+      "note": "Worker cycle executed"
+    },
+    {
+      "type": "work_cycle",
+      "task_id": "task-005",
+      "timestamp": "2026-03-28T19:47:22.062Z",
       "note": "Worker cycle executed"
     }
   ],
   "queue": [
-    {
-      "id": "task-002",
-      "title": "Write marketing copy for Scam Academy landing page",
-      "product": "scam-academy",
-      "priority": "high"
-    },
-    {
-      "id": "task-003",
-      "title": "Research where to find first 10 users for each product",
-      "product": "all",
-      "priority": "high"
-    },
-    {
-      "id": "task-004",
-      "title": "Write 'How Scam Academy works' explainer for Reddit posts",
-      "product": "scam-academy",
-      "priority": "high"
-    },
-    {
-      "id": "task-005",
-      "title": "Add 5 new Scam Academy simulations (rental scams)",
-      "product": "scam-academy",
-      "priority": "medium"
-    },
     {
       "id": "task-006",
       "title": "Fix false positive on legitimate URLs in Scam Shield",
@@ -73,10 +53,50 @@
       "priority": "low"
     }
   ],
-  "completed": [],
-  "completed_this_hour": [],
+  "completed": [
+    {
+      "id": "task-001",
+      "title": "Add 5 new Scam Academy simulations (job scams)",
+      "product": "scam-academy",
+      "priority": "high",
+      "steps_total": 5,
+      "steps_done": 0,
+      "started_at": null,
+      "completed_at": "2026-03-28T19:20:50.522Z"
+    },
+    {
+      "id": "task-002",
+      "title": "Write marketing copy for Scam Academy landing page",
+      "product": "scam-academy",
+      "priority": "high",
+      "started_at": "2026-03-28T19:20:50.522Z",
+      "completed_at": "2026-03-28T19:31:02.944Z"
+    },
+    {
+      "id": "task-003",
+      "title": "Research where to find first 10 users for each product",
+      "product": "all",
+      "priority": "high",
+      "started_at": "2026-03-28T19:31:02.944Z",
+      "completed_at": "2026-03-28T19:31:30.128Z"
+    },
+    {
+      "id": "task-004",
+      "title": "Write 'How Scam Academy works' explainer for Reddit posts",
+      "product": "scam-academy",
+      "priority": "high",
+      "started_at": "2026-03-28T19:31:30.129Z",
+      "completed_at": "2026-03-28T19:47:03.130Z"
+    }
+  ],
+  "completed_this_hour": [
+    "Add 5 new Scam Academy simulations (job scams)",
+    "Write marketing copy for Scam Academy landing page",
+    "Research where to find first 10 users for each product",
+    "Write 'How Scam Academy works' explainer for Reddit posts"
+  ],
   "interrupt_prompt": null,
-  "last_worker_run": "2026-03-28T19:11:11.426Z",
+  "last_worker_run": "2026-03-28T19:47:22.061Z",
   "last_reporter_run": null,
   "created_at": "2026-03-28T19:00:00Z"
 }
