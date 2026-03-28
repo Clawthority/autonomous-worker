@@ -1,0 +1,82 @@
+{
+  "status": "working",
+  "current_task": {
+    "id": "task-001",
+    "title": "Add 5 new Scam Academy simulations (job scams)",
+    "product": "scam-academy",
+    "priority": "high",
+    "steps_total": 5,
+    "steps_done": 0,
+    "started_at": null
+  },
+  "task_progress": [
+    {
+      "type": "work_cycle",
+      "task_id": "task-001",
+      "timestamp": "2026-03-28T19:11:11.426Z",
+      "note": "Worker cycle executed"
+    }
+  ],
+  "queue": [
+    {
+      "id": "task-002",
+      "title": "Write marketing copy for Scam Academy landing page",
+      "product": "scam-academy",
+      "priority": "high"
+    },
+    {
+      "id": "task-003",
+      "title": "Research where to find first 10 users for each product",
+      "product": "all",
+      "priority": "high"
+    },
+    {
+      "id": "task-004",
+      "title": "Write 'How Scam Academy works' explainer for Reddit posts",
+      "product": "scam-academy",
+      "priority": "high"
+    },
+    {
+      "id": "task-005",
+      "title": "Add 5 new Scam Academy simulations (rental scams)",
+      "product": "scam-academy",
+      "priority": "medium"
+    },
+    {
+      "id": "task-006",
+      "title": "Fix false positive on legitimate URLs in Scam Shield",
+      "product": "scam-shield",
+      "priority": "medium"
+    },
+    {
+      "id": "task-007",
+      "title": "Add 3 MindfulBot challenge categories (focus, energy, mood)",
+      "product": "mindfulbot",
+      "priority": "medium"
+    },
+    {
+      "id": "task-008",
+      "title": "Connect Scam Shield detections to Scam Academy training",
+      "product": "scam-academy",
+      "priority": "medium"
+    },
+    {
+      "id": "task-009",
+      "title": "Create Lemon Squeezy product listings (all 3 bots)",
+      "product": "all",
+      "priority": "medium"
+    },
+    {
+      "id": "task-010",
+      "title": "Improve Influencer Match with 10 more niches and offers",
+      "product": "influencer-match",
+      "priority": "low"
+    }
+  ],
+  "completed": [],
+  "completed_this_hour": [],
+  "interrupt_prompt": null,
+  "last_worker_run": "2026-03-28T19:11:11.426Z",
+  "last_reporter_run": null,
+  "created_at": "2026-03-28T19:00:00Z"
+}

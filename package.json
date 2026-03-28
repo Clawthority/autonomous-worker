@@ -1,0 +1,7 @@
+{
+  "name": "autonomous-worker",
+  "version": "1.0.0",
+  "description": "State machine architecture for continuous autonomous work",
+  "main": "state-machine.js",
+  "license": "MIT"
+}
