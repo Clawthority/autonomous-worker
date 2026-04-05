@@ -71,6 +71,11 @@ node state-machine.js complete    # Mark task complete
 node state-machine.js add-task "title" [priority] [product]
 ```
 
+## Related Products
+
+- **[Scam Academy](../scam-academy)** — Learn to spot scams with interactive simulations
+- **[Scam Shield](../scam-shield)** — Check suspicious messages, links, and crypto addresses
+
 ## License
 
 MIT

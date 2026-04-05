@@ -12,6 +12,34 @@ module.exports = {
   name: 'Phishing URL Detection Training',
   source: 'scam-shield',
   detectionType: 'phishing-url',
+  category: 'phishing',
+  difficulty: 'intermediate',
+  title: 'Spot the Fake Login Page',
+
+  // Flattened choices for validation compatibility
+  choices: [
+    { id: '1a', text: 'Click the button to see where it goes', correct: false, feedback: 'Never click suspicious links — even "just to check." Hover instead.' },
+    { id: '1b', text: 'Hover over the link to see the actual URL', correct: true, feedback: 'Correct! Hovering reveals the real destination.' },
+    { id: '1c', text: 'Reply to ask if it\'s legitimate', correct: false, feedback: 'Replying confirms your email is active to scammers.' },
+    { id: '1d', text: 'Forward it to your friends to warn them', correct: false, feedback: 'Forwarding spreads the phishing attempt.' },
+  ],
+  correctChoice: '1b',
+
+  redFlags: [
+    'Urgency language: "verify now", "account suspended"',
+    'Domain mismatch between display URL and actual URL',
+    'Suspicious TLD: .xyz instead of .com',
+    'Character substitution: "1" replacing "l" in paypal',
+    'Brand impersonation of PayPal',
+  ],
+
+  tips: [
+    'Always hover over links before clicking',
+    'Check for character substitutions in URLs',
+    'Legitimate companies never ask you to "verify" via email links',
+    'Go directly to the site by typing the URL yourself',
+    'Report phishing emails to help protect others',
+  ],
 
   // Raw detection pattern from Scam Shield
   detectionPattern: {
@@ -25,7 +53,10 @@ module.exports = {
     category: 'phishing',
   },
 
-  // Generated training scenario
+  // Flattened scenario for compatibility
+  scenario: 'You receive an email claiming your PayPal account has been suspended. Look for phishing red flags before clicking anything.',
+
+  // Generated training scenario (detailed)
   scenario: {
     title: 'Spot the Fake Login Page',
     difficulty: 'intermediate',
